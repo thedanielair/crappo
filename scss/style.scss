@@ -5,8 +5,8 @@ body {
 }
 
 .wrapper {
-    width: 1240px;
-    padding: 20px 0;
+    max-width: 1240px;
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,6 +73,8 @@ body {
 }
 
 .header {
+    padding: 40px 0;
+    background-color: #0d0d2b;
     &__wrapper {
         display: flex;
         align-items: center;
@@ -121,16 +123,14 @@ body {
 }
 
 .menu {
-    margin-right: 56px;
+    &__icon {
+    }
     &__links {
-        display: flex;
+        display: none;
     }
 
     &__link {
-        margin-right: 32px;
-        &:last-child {
-            margin-right: 0;
-        }
+        // BROOOOOOOOOO WRITE HEXAGON HERE AND SLIDE IT FROM BOTH SIDE
     }
 }
 
@@ -151,41 +151,84 @@ body {
 }
 
 .title-block {
+    padding-top: 46px;
+    padding-bottom: 112px;
     &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     &__info {
+        flex-basis: 50%;
     }
 
     &__discount {
+        margin-bottom: 35px;
     }
 
     &__title {
+        margin-bottom: 24px;
     }
 
     &__text {
+        margin-bottom: 32px;
+        width: 70%;
     }
 
     &__button {
     }
 
     &__image {
+        flex-basis: 50%;
+        object-fit: cover;
+        object-position: center;
+        min-width: 300px;
     }
 }
 
 .discount {
+    font-family: "Rubik";
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    width: 370px;
+    position: relative;
+    align-items: center;
+    padding: 8px 9px 11px 133px;
     &__offer {
+        padding: 4px 16px;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #0d0d2b;
+        background-color: #fff;
+        border-radius: 32px;
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        letter-spacing: 0.04em;
     }
 
     &__body {
+        font-weight: 400;
+        color: #fff;
+        line-height: 21px;
+        letter-spacing: 0.01em;
     }
 }
 
 .statistic {
+    padding: 100px 0;
     &__wrapper {
     }
 
     &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     &__item {
@@ -193,6 +236,22 @@ body {
 }
 
 .statistic-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 340px;
+    &::before {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #3671e9;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        margin-right: 24px;
+    }
     &__title {
     }
 
@@ -376,4 +435,322 @@ body {
 }
 
 .copyright {
+}
+
+@media (min-width: 768px) {
+    .menu {
+        margin-right: 56px;
+        &__icon {
+        }
+        &__links {
+            display: flex;
+        }
+        &__link {
+            margin-right: 32px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .title-block {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__info {
+            flex-basis: 65%;
+        }
+
+        &__discount {
+        }
+
+        &__title {
+        }
+
+        &__text {
+        }
+
+        &__button {
+        }
+
+        &__image {
+            flex-basis: 35%;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .text,
+    .link,
+    .copyright {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 48px;
+    }
+    .subtitle {
+        font-size: 32px;
+    }
+    .caption {
+        font-size: 28px;
+    }
+    .menu {
+        margin-right: 38px;
+        &__icon {
+        }
+        &__links {
+        }
+        &__link {
+        }
+        &--active {
+        }
+    }
+    .text,
+    .link,
+    .copyright {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 26px;
+    }
+    .caption {
+        font-size: 24px;
+    }
+    .header {
+        padding: 30px 0;
+        &__wrapper {
+        }
+
+        &__logo {
+        }
+
+        &__navigation {
+        }
+
+        &__button {
+        }
+        &__sign-block {
+        }
+    }
+    .sign-block {
+        &::before {
+            font-family: "crappo-font";
+            content: "\e902";
+            color: #fff;
+            font-size: 28px;
+        }
+        &__login {
+            display: none;
+        }
+        &__register {
+            display: none;
+        }
+        &__divide-line {
+            display: none;
+        }
+    }
+    .title-block {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        &__info {
+            flex-basis: 80%;
+        }
+
+        &__discount {
+        }
+
+        &__title {
+        }
+
+        &__text {
+        }
+
+        &__button {
+        }
+
+        &__image {
+            position: absolute;
+            width: 50%;
+            opacity: 0.5;
+            right: 0;
+            top: 0;
+        }
+    }
+    .statistic {
+        padding: 80px;
+        &__wrapper {
+        }
+
+        &__items {
+            justify-content: space-around;
+            row-gap: 30px;
+        }
+
+        &__item {
+        }
+    }
+}
+@media (max-width: 767px) {
+    .text,
+    .link,
+    .copyright {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 34px;
+    }
+    .subtitle {
+        font-size: 26px;
+    }
+    .caption {
+        font-size: 24px;
+    }
+    .header {
+        padding: 20px 0;
+        &__wrapper {
+        }
+
+        &__logo {
+        }
+
+        &__navigation {
+        }
+
+        &__button {
+        }
+        &__sign-block {
+        }
+    }
+    .menu {
+        order: 3;
+        margin-right: 0;
+        &__icon {
+            position: relative;
+            width: 26px;
+            height: 21px;
+            &::before,
+            &::after,
+            span {
+                content: "";
+                position: absolute;
+                width: 26px;
+                height: 3px;
+                border-radius: 4px;
+                background-color: #fff;
+            }
+            span {
+                top: 9px;
+            }
+            &::before {
+                top: 0;
+            }
+            &::after {
+                bottom: 0;
+            }
+        }
+        &__links {
+            display: none;
+        }
+        &__link {
+        }
+        &--active {
+        }
+    }
+    .sign-block {
+        margin-right: 20px;
+        &::before {
+        }
+        &__login {
+        }
+        &__register {
+        }
+        &__divide-line {
+        }
+    }
+    .statistic {
+        padding: 60px;
+        &__wrapper {
+        }
+
+        &__items {
+        }
+
+        &__item {
+        }
+    }
+}
+@media (max-width: 576px) {
+    .text,
+    .link,
+    .copyright {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .caption {
+        font-size: 16px;
+    }
+
+    .title-block {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        &__info {
+            flex-basis: 100%;
+        }
+
+        &__discount {
+        }
+
+        &__title {
+        }
+
+        &__text {
+            width: 90%;
+        }
+
+        &__button {
+        }
+
+        &__image {
+            position: absolute;
+            width: 50%;
+            opacity: 0.2;
+            right: 0;
+            top: 20%;
+        }
+    }
+    .statistic {
+        padding: 40px;
+        &__wrapper {
+        }
+
+        &__items {
+        }
+
+        &__item {
+        }
+    }
 }

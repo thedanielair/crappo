@@ -27,15 +27,12 @@
 
 .i-chart:before {
   content: "\e900";
-  color: #fff;
 }
 .i-earth:before {
   content: "\e901";
-  color: #fff;
 }
 .i-person:before {
   content: "\e902";
-  color: #fff;
 }
 .i-arrow1:before {
   content: "\e907";
