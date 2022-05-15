@@ -72,3 +72,163 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Null End*/
+body {
+  background: #0d0d2b;
+}
+
+.wrapper {
+  width: 1240px;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title,
+.subtitle,
+.caption,
+.text,
+.button,
+.link,
+.copyright {
+  font-family: "Rubik";
+  font-style: normal;
+  color: #ffffff;
+}
+
+.subtitle,
+.caption,
+.button {
+  line-height: 150%;
+}
+
+.text,
+.link,
+.copyright {
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 117%;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 400;
+  line-height: 175%;
+  color: #e0e0e0;
+}
+
+.caption {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  padding: 16px 24px;
+  background: #3671e9;
+  border-radius: 32px;
+}
+
+.link {
+  font-weight: 400;
+  color: #e0e0e0;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+}
+
+.logo__icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo__icon::before {
+  font-family: "crappo-font";
+  content: "\e903";
+  color: #fff;
+  font-size: 38px;
+}
+
+.logo__text {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
+}
+
+.menu {
+  margin-right: 56px;
+}
+
+.menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__link {
+  margin-right: 32px;
+}
+
+.menu__link:last-child {
+  margin-right: 0;
+}
+
+.sign-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sign-block__divide-line {
+  display: block;
+  margin: 0 24px;
+  width: 1px;
+  height: 24px;
+  background-color: rgba(242, 242, 242, 0.3);
+}
