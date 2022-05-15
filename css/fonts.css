@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'crappo-font';
+  src:  url('../fonts/crappo-font.eot?8tfk4d');
+  src:  url('../fonts/crappo-font.eot?8tfk4d#iefix') format('embedded-opentype'),
+    url('../fonts/crappo-font.ttf?8tfk4d') format('truetype'),
+    url('../fonts/crappo-font.woff?8tfk4d') format('woff'),
+    url('../fonts/crappo-font.svg?8tfk4d#crappo-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'crappo-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-chart:before {
+  content: "\e900";
+  color: #fff;
+}
+.i-earth:before {
+  content: "\e901";
+  color: #fff;
+}
+.i-person:before {
+  content: "\e902";
+  color: #fff;
+}
+.i-arrow1:before {
+  content: "\e903";
+}
+.i-arrow2:before {
+  content: "\e904";
+  color: #fff;
+}
+.i-arrow3:before {
+  content: "\e905";
+  color: #fff;
+}
+.i-logo-crappo .path1:before {
+  content: "\e906";
+  color: rgb(0, 0, 0);
+  opacity: 0.1;
+}
+.i-logo-crappo .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-crappo .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-bitcoin .path1:before {
+  content: "\e90e";
+  color: rgb(0, 0, 0);
+}
+.i-logo-bitcoin .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-ethereum .path1:before {
+  content: "\e910";
+  color: rgb(17, 129, 232);
+}
+.i-logo-ethereum .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-logo-litecoin .path1:before {
+  content: "\e912";
+  color: rgb(255, 255, 255);
+}
+.i-logo-litecoin .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(89, 193, 156);
+}
+.i-logo-bitcoin2 .path1:before {
+  content: "\e914";
+  color: rgb(224, 224, 224);
+}
+.i-logo-bitcoin2 .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(13, 13, 43);
+}
+.i-logo-mastercard .path1:before {
+  content: "\e916";
+  color: rgb(189, 189, 189);
+}
+.i-logo-mastercard .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(130, 130, 130);
+}
+.i-logo-mastercard .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(224, 224, 224);
+}
+.i-logo-visa:before {
+  content: "\e919";
+  color: #e0e0e0;
+}
+.i-logo-facebook:before {
+  content: "\e91a";
+  color: #fff;
+}
+.i-logo-instagram:before {
+  content: "\e91b";
+  color: #fff;
+}
+.i-logo-youtube:before {
+  content: "\e91c";
+  color: #fff;
+}
+.i-logo-twitter:before {
+  content: "\e91d";
+  color: #fff;
+}
+.i-logo-linkedin:before {
+  content: "\e91e";
+  color: #fff;
+}
+.i-logo-vk:before {
+  content: "\e91f";
+  color: #fff;
+}
